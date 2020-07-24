@@ -13,10 +13,9 @@
     <table>
         <tr>
             <th>STT</th>
-            <th>ID</th>
             <th>Title</th>
             <th>Content</th>
-            <th>Type</th>
+            <th colspan="2">Action</th>
         </tr>
         <?php if (empty($notes)) : ?>
             <tr>
